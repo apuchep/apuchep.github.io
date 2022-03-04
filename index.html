@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Site</title>
+
+    <link rel="stylesheet" href="./assets/css/uikit.min.css" />
+	<link rel="stylesheet" href="./assets/css/tailwind.css" />       
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body class="bg-[#000] relative">
+
+    <header class="py-1.5">
+        <div class="uk-container">
+            <nav class="uk-navbar" uk-navbar>
+                <div class="uk-navbar-left">
+                    <ul class="uk-navbar-nav">
+                        <li>
+                            <a class="uk-navbar-item nav-link" href="#">abror.</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="uk-navbar-right uk-visible@s">
+                    <ul class="uk-navbar-nav" style="z-index: 999;">
+                        <li>
+                            <a class="uk-navbar-item nav-link" href="#">about.</a>
+                        </li>
+                        <li>
+                            <a class="uk-navbar-item nav-link" href="#">cases.</a>
+                        </li>
+                        <li>
+                            <a class="uk-navbar-item nav-link" href="#">contact.</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="uk-navbar-right uk-hidden@s">
+                    <button type="button" uk-toggle="target: #offcanvas-flip">
+                        <img src="./assets/img/svg/hamburger.svg" alt="menu" />
+                    </button>
+
+                    <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                        <div class="uk-offcanvas-bar">
+
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                            <ul class="uk-margin-large text-center">
+                                <li class="my-2">
+                                    <a class="nav-link" href="#">about.</a>
+                                </li>
+                                <li class="my-2">
+                                    <a class="nav-link" href="#">cases.</a>
+                                </li>
+                                <li class="my-2">
+                                    <a class="nav-link" href="#">contact.</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="uk-section">
+
+        <div class="uk-container pt-11 pb-8">
+            <h1 class="font-medium text-[72px] lg:text-[172px]">
+                <span class="block text-xl">I am</span>
+                UI Designer
+                <span class="block text-2xl">Abror Xoshimjonov</span>
+            </h1>
+
+            <div class="uk-flex-right uk-margin" uk-grid>
+                <div>
+                    <button class="w-[125px] h-[125px] rounded-full text-[#0E1217] text-lg bg-[#F5F6E5] font-medium">Contact</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="w-full bg-[#F5F6E5] h-1" />
+
+    <section class="uk-section relative overflow-hidden">
+        
+        <div class="uk-container pt-8">
+            <div uk-grid>
+                <div class="uk-width-2-3@m">
+                    <h2 class="text-xl">about.</h2>
+
+                    <p class="relative overflow-hidden lg:pb-[35px] lg:mt-[102px] pb-4 mt-4 font-semibold text-3xl lg:text-[32px] 
+                    after:w-[80%] after:h-[1px] after:absolute after:left-0 after:bottom-0 after:bg-[#F5F6E5]">
+                        I'm an uzbek digital UI designer who helps <br />
+                        extract the essence of business <br />
+                        challenges and presents solutions through <br />
+                        cleverly designed online platforms and <br />
+                        apps.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="text-xl">services.</h2>
+
+                    <ul class="mt-4 lg:mt-[102px]">
+                        <li class="uk-flex uk-flex-middle my-0.5">
+                            <div class="w-2 h-2 rounded-full bg-[#F5F6E5] mr-2"></div>
+                            <span class="text-lg">user interface design (UI)</span>
+                        </li>
+                        <li class="uk-flex uk-flex-middle my-0.5">
+                            <div class="w-2 h-2 rounded-full bg-[#F5F6E5] mr-2"></div>
+                            <span class="text-lg">user experience design (UX)</span>
+                        </li>
+                        <li class="uk-flex uk-flex-middle my-0.5">
+                            <div class="w-2 h-2 rounded-full bg-[#F5F6E5] mr-2"></div>
+                            <span class="text-lg">animation design</span>
+                        </li>
+                    </ul>
+
+                    <a class="relative flex justify-between overflow-hidden mt-4 pb-4 lg:pb-[35px] lg:mt-[114px] font-semibold text-[22px] after:w-full after:h-[1px] after:absolute after:left-0 after:bottom-0 after:bg-[#F5F6E5]">
+                        Order design
+                        <span>
+                            <img src="./assets/img/svg/arrow-right.svg" class="inline" alt="Arrow right" />
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="uk-section uk-section-small">
+        <div class="uk-container">
+            <div class="uk-flex uk-flex-between" uk-grid>
+                <div class="uk-width-2-3@m">
+                    <h2 class="text-xl">about.</h2>
+                </div>
+                <div class="uk-width-1-3@m">
+                    <h3 class="text-[72px] lg:text-[130px] lg:leading-[130px] overflow-hidden lg:text-right">Latest work</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="uk-section">
+        <div class="uk-container">
+            <div>
+                <div uk-grid>
+                    <div class="uk-width-1-3@m">
+                        <h2 class="text-xl">09.02.2022</h2>
+    
+                        <h3 class="text-[56px] mt-12 lg:mt-32">Arzoni bizda</h3>
+                        <p class="text-[20px] lg:mt-3">sayt: Landing page</p>
+    
+                        <a class="relative flex justify-between overflow-hidden mt-4 pb-4 lg:pb-[35px] lg:mt-32 font-semibold text-[22px] after:w-full after:h-[1px] after:absolute after:left-0 after:bottom-0 after:bg-[#F5F6E5]">
+                            View case
+                            <span>
+                                <img src="./assets/img/svg/arrow-right.svg" class="inline" alt="Arrow right" />
+                            </span>
+                        </a>
+                    </div>
+                    <div class="uk-width-2-3@m">
+                        <div class="relative overflow-hidden w-full h-[472px] bg-[#F5F6E5] bg-opacity-[0.12]">
+                            <img src="./assets/img/cases/brigadas.png" class="center-positioned" alt="Arzoni Bizda" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-24">
+                <div uk-grid>
+                    <div class="uk-width-1-3@m">
+                        <h2 class="text-xl">09.02.2022</h2>
+    
+                        <h3 class="text-[56px] mt-12 lg:mt-32">Brigada S</h3>
+                        <p class="text-[20px] lg:mt-3">sayt: Landing page</p>
+    
+                        <a class="relative flex justify-between overflow-hidden mt-4 pb-4 lg:pb-[35px] lg:mt-32 font-semibold text-[22px] after:w-full after:h-[1px] after:absolute after:left-0 after:bottom-0 after:bg-[#F5F6E5]">
+                            View case
+                            <span>
+                                <img src="./assets/img/svg/arrow-right.svg" class="inline" alt="Arrow right" />
+                            </span>
+                        </a>
+                    </div>
+                    <div class="uk-width-2-3@m">
+                        <div class="relative overflow-hidden w-full h-[472px] bg-[#F5F6E5] bg-opacity-[0.12]">
+                            <img src="./assets/img/cases/brigadas.png" class="center-positioned" alt="Brigada-S" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="uk-section">
+        <div class="uk-container">
+            <h2 class="mt-10 text-[72px] lg:text-[142px]">It’s me</h2>
+        </div>
+    </section>
+
+    <div class="uk-container">
+        <hr class="mt-4 lg:mt-10 bg-[#F5F6E5] w-full h-[1px]" />
+    </div>
+
+    <footer class="uk-section uk-padding-remove-bottom">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-2-3@m"> 
+                    <h2 class="mt-8 text-[20px]">contact.</h2>
+
+                    <p class="mt-10">
+                        <span class="opacity-[0.72]">
+                            Interested in discussing a project or partnership? Simply want to have a chat? You'll find me in <br />
+                            Tilburg, 
+                            the Netherlands — call 
+                        </span>
+                        <a href="tel:+998979008777">
+                            +998 97 900 87 77
+                        </a>
+                        <span class="opacity-[0.72]">
+                            or send a mail to
+                        </span>  
+                        <a href="mailto:aboxoshimjonov@gmail.com">
+                            aboxoshimjonov@gmail.com
+                        </a>
+                    </p>
+
+                    <hr class="mt-12 lg:mt-24 bg-[#F5F6E5] w-[90%] h-[1px]" />
+                </div>
+                <div class="uk-width-1-3@m">
+                    <h2 class="mt-8 text-[20px]">connect.</h2>
+
+                    <div class="mt-12 lg:mt-14" uk-grid>
+                        <div>
+                            <a href="#">
+                                <img src="./assets/img/svg/instagram.svg" alt="Instagram" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./assets/img/svg/telegram.svg" alt="Telegram" />
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./assets/img/svg/facebook.svg" alt="Facebook" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <hr class="mt-12 lg:mt-24 bg-[#F5F6E5] w-full h-[1px]" />
+                </div>
+            </div>
+
+            <div class="flex justify-between py-10">
+                <p>Abror © 2020</p>
+                <p>Privacy policy</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/uikit-icons.min.js"></script>
+    <script src="./assets/js/uikit.min.js"></script>
+
+    <script>
+
+        function myFunction(screen) {
+            if (screen.matches) { 
+                const brs = document.querySelectorAll('br');
+                brs.forEach(br => {
+                    br.classList.add('uk-hidden');
+                });
+            } else {
+                const brs = document.querySelectorAll('br');
+                brs.forEach(br => {
+                    br.classList.remove('uk-hidden');
+                });
+            }
+        }
+
+        var screen = window.matchMedia("(max-width: 768px)")
+        myFunction(screen) // Call listener function at run time
+        screen.addListener(myFunction) // Attach listener function on state changes
+
+    </script>
+</body>
+</html>
