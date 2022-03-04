@@ -1,0 +1,9 @@
+.blurred-bg {
+    position: absolute;
+    width: 616px;
+    height: 616px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .5);
+    filter: blur(400px);
+    /* z-index: -999; */
+}
